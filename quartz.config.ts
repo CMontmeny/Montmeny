@@ -34,8 +34,8 @@ const config: QuartzConfig = {
       gray: "#737373",        // Texte secondaire
       darkgray: "#171717",    // Texte principal (presque noir)
       dark: "#000000",        // Titres
-      secondary: "#3b82f6",   // Bleu pur pour les liens (style classique)
-      tertiary: "#93c5fd",    // Accent au survol
+      secondary: "#00b906",   // Bleu pur pour les liens (style classique)
+      tertiary: "#009e59",    // Accent au survol
       highlight: "rgba(59, 130, 246, 0.1)",
     },
     darkMode: {
@@ -44,8 +44,8 @@ const config: QuartzConfig = {
       gray: "#a3a3a3",
       darkgray: "#e5e5e5",
       dark: "#ffffff",
-      secondary: "#60a5fa",
-      tertiary: "#93c5fd",
+      secondary: "#00b906",
+      tertiary: "#009e59",
       highlight: "rgba(59, 130, 246, 0.15)",
     },
   },
