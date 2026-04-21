@@ -1,0 +1,29 @@
+@use "./base.scss";
+
+// put your custom CSS here!
+// Supprime les ombres pour un look plus plat (flat design)
+* {
+  box-shadow: none !important;
+}
+
+// Typographie plus "monospace" pour les titres
+h1, h2, h3, h4 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+// Style des liens (soulignés au survol comme sur ellie.wtf)
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+  }
+}
+
+// Rendre le graphe plus discret
+.graph {
+  opacity: 0.8;
+}
+
